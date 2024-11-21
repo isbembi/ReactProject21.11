@@ -1,4 +1,7 @@
+import  { useState } from 'react'
 const Component = () => {
+    const[message, setMessage] = useState("");
+
     return (
         <div>
             <h1> Name: Bermet Iskenderova</h1>
@@ -7,7 +10,8 @@ const Component = () => {
             <p> Age: 19 Years old </p>
             <p> Location: Bishkek city /Kyrgyzstan </p>
             <p>Email: iskenderova.bermet19@gmail.com</p>
-            <button>Get Employee Information</button>
+            {message &&  <p>{message}</p>}
+            <button onClick={()=> setMessage ("Employee Information Displayed!" )}>Get Employee Information</button>
         </div>
     );
 };
