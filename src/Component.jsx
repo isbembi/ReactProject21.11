@@ -7,6 +7,7 @@ const Component = () => {
             <p> Age: 19 Years old </p>
             <p> Location: Bishkek city /Kyrgyzstan </p>
             <p>Email: iskenderova.bermet19@gmail.com</p>
+            <button>Get Employee Information</button>
         </div>
     );
 };
