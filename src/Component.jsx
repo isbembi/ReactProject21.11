@@ -11,7 +11,7 @@ const Component = () => {
             <p> Location: Bishkek city /Kyrgyzstan </p>
             <p>Email: iskenderova.bermet19@gmail.com</p>
             {message &&  <p>{message}</p>}
-            <button onClick={()=> setMessage ("Employee Information Displayed!" )}>Get Employee Information</button>
+            <button onClick={()=> setMessage ("Employee Information Displayed!" )}>Promote Employee</button>
         </div>
     );
 };
